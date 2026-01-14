@@ -1,0 +1,25 @@
+h2 {
+ font-size: 18px;
+}
+
+body {
+ background-color: #EE4D2D;
+ font-family: "Trebuchet MS", sans-serif;
+ color: white;
+ text-align: center;
+}
+
+a {
+ background-color: white;
+ font-size: 20px;
+ text-transform: uppercase;
+ border-radius: 10px;
+ padding: 10px;
+ display: block;
+ text-decoration: none;
+ text-align: center;
+ margin: 10px auto;
+ color: #EE4D2D;
+ max-width: 600px;
+ width: auto;
+}
