@@ -3,23 +3,48 @@ h2 {
 }
 
 body {
- background-color: #EE4D2D;
- font-family: "Trebuchet MS", sans-serif;
- color: white;
- text-align: center;
+  background: linear-gradient(
+    135deg,
+    #EE4D2D,
+    #FF7A59
+  );
+ font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
 a {
- background-color: white;
- font-size: 20px;
- text-transform: uppercase;
- border-radius: 10px;
- padding: 10px;
- display: block;
- text-decoration: none;
- text-align: center;
- margin: 10px auto;
- color: #EE4D2D;
- max-width: 600px;
- width: auto;
+  background: white;
+  color: #EE4D2D;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 14px;
+  padding: 16px;
+  display: block;
+  text-decoration: none;
+  margin: 15px auto;
+  max-width: 600px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+
+ img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  margin-bottom: 15px;
+ }
 }
