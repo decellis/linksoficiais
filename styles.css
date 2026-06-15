@@ -8,8 +8,15 @@ body {
     #EE4D2D,
     #FF7A59
   );
- font-family: Arial, sans-serif;
-  line-height: 1.6;
+ font-family: "Trebuchet MS", sans-serif;
+ line-height: 1.6;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ text-align: center;
+ margin: 0;
 }
 
 a {
