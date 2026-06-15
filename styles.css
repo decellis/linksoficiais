@@ -74,6 +74,50 @@ h1{
     margin-bottom:12px;
 }
 
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    margin-bottom:30px;
+}
+
+.social-links a{
+    width:52px;
+    height:52px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:rgba(255,255,255,.18);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:50%;
+
+    color:white;
+
+    transition:all .3s ease;
+
+    backdrop-filter:blur(8px);
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.15);
+}
+
+.social-links a:hover{
+    transform:translateY(-4px) scale(1.08);
+
+    background:white;
+
+    color:#EE4D2D;
+}
+
+.social-links svg{
+    width:24px;
+    height:24px;
+}
+
 .badge{
     display:inline-block;
 
